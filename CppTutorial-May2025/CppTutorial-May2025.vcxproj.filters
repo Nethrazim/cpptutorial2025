@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fundamental algorithms">
+      <UniqueIdentifier>{2f33dddb-cee6-4a8b-b65b-7a8a9c5d5630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fundamental_algorithms">
+      <UniqueIdentifier>{8eed5df9-d6c3-447a-b419-7cd6d84aacf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\leet_code">
+      <UniqueIdentifier>{1110fc14-0562-4053-9bf7-869688ba4c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\leet_code">
+      <UniqueIdentifier>{f9b65c59-2e87-4011-aa95-f04e4cff5382}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppTutorial-May2025.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="value_switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passing_arrays_to_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linked_list.cpp">
+      <Filter>Source Files\fundamental algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="merge_ranges.cpp">
+      <Filter>Source Files\fundamental algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="plus_one.cpp">
+      <Filter>Source Files\leet_code</Filter>
+    </ClCompile>
+    <ClCompile Include="pascal_triangle.cpp">
+      <Filter>Source Files\leet_code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="value_switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_by_value_vs_copy_by_reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="passing_arrays_to_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_list_custom.h">
+      <Filter>Header Files\fundamental_algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_ranges.h">
+      <Filter>Header Files\fundamental_algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="plus_one.h">
+      <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+    <ClInclude Include="pascal_triangle.h">
+      <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
