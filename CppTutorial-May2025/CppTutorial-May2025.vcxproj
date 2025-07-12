@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
     <ClCompile Include="linked_list.cpp" />
@@ -137,16 +138,26 @@
     <ClCompile Include="passing_arrays_to_functions.cpp" />
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="prefix_sum.cpp" />
+    <ClCompile Include="same_tree.cpp" />
+    <ClCompile Include="sample_loader.cpp" />
     <ClCompile Include="value_switch.cpp" />
+    <ClCompile Include="variables.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="add_two_numbers_from_linked_lists.h" />
     <ClInclude Include="copy_by_value_vs_copy_by_reference.h" />
-    <ClInclude Include="linked_list_custom.h" />
+    <ClInclude Include="linked_list.h" />
     <ClInclude Include="merge_ranges.h" />
     <ClInclude Include="pascal_triangle.h" />
     <ClInclude Include="passing_arrays_to_functions.h" />
     <ClInclude Include="plus_one.h" />
+    <ClInclude Include="same_tree.h" />
+    <ClInclude Include="sample_loader.h" />
     <ClInclude Include="value_switch.h" />
+    <ClInclude Include="variables.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="topics_to_study.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
 #pragma once
 #include <vector>
 
-std::vector<std::vector<int>> generate(int numRows);
+std::vector<std::vector<int>> generatePascalTriangle(int numRows);

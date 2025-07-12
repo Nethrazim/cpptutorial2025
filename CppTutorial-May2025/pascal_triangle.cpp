@@ -1,7 +1,7 @@
 #include <vector>
 #include <iostream>
 
-std::vector<std::vector<int>> generate(int numRows)
+std::vector<std::vector<int>> generatePascalTriangle(int numRows)
 {
 	std::vector<std::vector<int>> pascalTriangle;
 

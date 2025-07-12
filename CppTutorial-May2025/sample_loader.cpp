@@ -1,0 +1,166 @@
+#include <iostream>
+#include <tuple>
+
+#include "sample_loader.h"
+
+#include "passing_arrays_to_functions.h"
+#include "same_tree.h"
+#include "linked_list.h"
+#include "merge_ranges.h"
+#include "plus_one.h"
+#include "add_two_numbers_from_linked_lists.h"
+#include "pascal_triangle.h"
+
+//Forward declarations
+void testPassBySizedArray();
+void testPassUnsizedArray();
+void testPassAnArrayPointer();
+void testVector();
+
+void testLeetCodeSameTree();
+void testPrintLinkedList();
+void testMergedRanges();
+void testPlusOne();
+
+void testAddTwoNumbersFromLinkedLists();
+
+
+void StartSample(LoadingState sample)
+{
+	switch (sample)
+	{
+		case TEST_PASS_BY_SIZED_ARRAY:
+			testPassBySizedArray();
+			break;
+
+		case TEST_PASS_BY_UNSIZED_ARRAY:
+			testPassUnsizedArray();
+			break;
+
+		case TEST_PASS_BY_ARRAY_POINTER:
+			testPassAnArrayPointer();
+			break;
+
+		case TEST_VECTOR:
+			testVector();
+			break;
+
+		case TEST_LEET_CODE_SAME_TREE:
+			testLeetCodeSameTree();
+			break;
+
+		case TEST_PRINT_LINKED_LIST:
+			testPrintLinkedList();
+			break;
+
+		case TEST_MERGED_RANGES:
+			testMergedRanges();
+			break;
+
+		case TEST_PLUS_ONE:
+			testPlusOne();
+			break;
+
+		case TEST_ADD_TWO_NUMBERS_FROM_LINKED_LISTS:
+			testAddTwoNumbersFromLinkedLists();
+			break;
+
+		case TEST_PASCAL_TRIANGLE:
+			generatePascalTriangle(5);
+			break;
+	}
+}
+
+/* == == == == START tests passing_arrays_to_functions == == == ==*/
+
+void testPassBySizedArray()
+{
+	int arr[5] = { 1, 2, 3, 4, 5 };
+	passBySizedArray(arr);
+}
+
+void testPassUnsizedArray()
+{
+	int arr[] = { 0, 1, 2, 3, 4, 5 };
+	std::cout << "Size of array: " << sizeof(arr) << std::endl;
+	int size = sizeof(arr) / sizeof(int);
+
+	passUnsizedArray(arr, size);
+}
+
+void testPassAnArrayPointer()
+{
+	int arr[] = { 21, 22, 23, 24, 25 };
+	passAnArrayPointer(arr, sizeof(arr) / sizeof(int));
+}
+
+void testVector()
+{
+	testing_vector();
+}
+/* == == == == END tests passing_arrays_to_functions == == == ==*/
+
+ 
+
+void testLeetCodeSameTree()
+{
+	TreeNode* head = new TreeNode(1);
+	head->left = new TreeNode(2);
+	head->right = new TreeNode(1);
+
+	TreeNode* head2 = new TreeNode(1);
+	head2->left = new TreeNode(2);
+	head2->right = new TreeNode(3);
+	head2->left->left = new TreeNode(4);
+	head2->left->right = new TreeNode(5);
+
+	bool isSameTree = IsSameTree(head, head2);
+
+	std::cout << "Is Same Tree ? " << (isSameTree ? "True" : "False") << std::endl;
+}
+
+void testPrintLinkedList()
+{
+	Node* head = populateLinkedList(10);
+	printLinkedList(head);
+}
+
+
+void testMergedRanges()
+{
+	std::vector<std::tuple<int, int>> aRange = {
+		{7, 11},
+		{13,15},
+		{15,16},
+		{17,19},
+		{3,5},
+		{5,7},
+	};
+
+	printRange(mergeRanges(aRange));
+}
+
+
+void testPlusOne()
+{
+	std::vector<int> listOfInts = { 1,2,3,4,5 };
+	plusOne(listOfInts);
+}
+
+void testAddTwoNumbersFromLinkedLists()
+{
+	Solution addTwoNumbersSolution;
+
+	int arr1[] = { 2,4,3 };
+	ListNode* headOfList1 = addTwoNumbersSolution.generateLinkedListFromArray(arr1, sizeof(arr1));
+
+	int arr2[] = { 5, 6, 4 };
+	ListNode* headOfList2 = addTwoNumbersSolution.generateLinkedListFromArray(arr2, sizeof(arr2));
+
+	addTwoNumbersSolution.addTwoNumbers(headOfList1, headOfList2);
+}
+
+void testPascalTriangle()
+{
+	generatePascalTriangle(5);
+}

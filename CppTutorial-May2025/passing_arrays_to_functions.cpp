@@ -15,9 +15,9 @@ void passBySizedArray(int arr[5])
 
 void passUnsizedArray(int arr[], int size)
 {
-	for (int i = 0; i < size; size++)
+	for (int i = 0; i < size; ++i)
 	{
-		cout << i << " " << arr[i] << endl;
+		cout << "i[" << i << "]" << " " << arr[i] << endl;
 	}
 }
 
@@ -30,14 +30,19 @@ void passAnArrayPointer(int* pArr, int size)
 }
 
 
+/// <summary>
+///inserts into vector so at some point the vector is coppied in another 
+/// memory location with increased capacity
+/// </summary>
 void testing_vector() {
 	std::vector<int> vec;
 	std::vector<int*> memoryAddresses;
 
 	std::cout << "Initial capacity: " << vec.capacity() << endl;
+	memoryAddresses.push_back(&vec[0]);
 
-	for (int j = 1; j <<= 10; j++) {
-		for (int i = 0; i < 100; i++) {
+	for (int j = 1; j < 10; ++j) {
+		for (int i = 0; i < 100; ++i) {
 			vec.push_back(i);
 		}
 		memoryAddresses.push_back(&vec[0]);

@@ -25,23 +25,47 @@
     <Filter Include="Source Files\leet_code">
       <UniqueIdentifier>{f9b65c59-2e87-4011-aa95-f04e4cff5382}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\core_concepts">
+      <UniqueIdentifier>{19ce888b-0cd3-47f6-8fa6-35cb7be2dc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\classes_and_objects">
+      <UniqueIdentifier>{73356067-5c60-49b7-b74b-abc9ecc9ba96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\memory_management">
+      <UniqueIdentifier>{bd7fd02c-aeca-43b9-a751-45cfa7a5295a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stl">
+      <UniqueIdentifier>{5440b511-5b26-48bb-a9f6-ab474f1889e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intermediate_to_advanced_topics">
+      <UniqueIdentifier>{5c82f3ea-3ee0-4d7e-ae76-086d22095dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modern_c++11">
+      <UniqueIdentifier>{f6dd6a78-a285-418c-acba-58f67a09313c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\multithreading_concurrency">
+      <UniqueIdentifier>{7d06c53c-e3a6-4b52-a248-822fb9a6bd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_i/o_serialization">
+      <UniqueIdentifier>{64c003b1-edcb-41b1-a8bd-2f54f49021c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\design_patterns">
+      <UniqueIdentifier>{8a8a0313-5f54-439e-9683-9b966ef4fef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unit_testing">
+      <UniqueIdentifier>{d283cb90-a334-4bd1-bdfa-834a65a8f4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core_concepts">
+      <UniqueIdentifier>{5c047a42-1d81-477b-802f-32a093de2909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core_concepts\variables">
+      <UniqueIdentifier>{74fa436f-fa7a-4c27-9e8a-e60ff156bdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core_concepts\variables">
+      <UniqueIdentifier>{b12c6228-09af-4d22-b889-19ec30609ae7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppTutorial-May2025.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="value_switch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="prefix_sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="passing_arrays_to_functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="linked_list.cpp">
       <Filter>Source Files\fundamental algorithms</Filter>
     </ClCompile>
@@ -54,18 +78,36 @@
     <ClCompile Include="pascal_triangle.cpp">
       <Filter>Source Files\leet_code</Filter>
     </ClCompile>
+    <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp">
+      <Filter>Source Files\core_concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="passing_arrays_to_functions.cpp">
+      <Filter>Source Files\core_concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>Source Files\core_concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="value_switch.cpp">
+      <Filter>Source Files\core_concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="add_two_numbers_from_linked_lists.cpp">
+      <Filter>Source Files\leet_code</Filter>
+    </ClCompile>
+    <ClCompile Include="CppTutorial-May2025.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="same_tree.cpp">
+      <Filter>Source Files\leet_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variables.cpp">
+      <Filter>Source Files\core_concepts\variables</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="value_switch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="copy_by_value_vs_copy_by_reference.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="passing_arrays_to_functions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="linked_list_custom.h">
+    <ClInclude Include="linked_list.h">
       <Filter>Header Files\fundamental_algorithms</Filter>
     </ClInclude>
     <ClInclude Include="merge_ranges.h">
@@ -77,5 +119,29 @@
     <ClInclude Include="pascal_triangle.h">
       <Filter>Header Files\leet_code</Filter>
     </ClInclude>
+    <ClInclude Include="copy_by_value_vs_copy_by_reference.h">
+      <Filter>Header Files\core_concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="passing_arrays_to_functions.h">
+      <Filter>Header Files\core_concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="value_switch.h">
+      <Filter>Header Files\core_concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="add_two_numbers_from_linked_lists.h">
+      <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+    <ClInclude Include="same_tree.h">
+      <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>Header Files\core_concepts\variables</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="topics_to_study.txt" />
   </ItemGroup>
 </Project>

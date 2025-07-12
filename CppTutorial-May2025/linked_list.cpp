@@ -1,5 +1,5 @@
 #include <iostream>
-#include "linked_list_custom.h"
+#include "linked_list.h"
 
 struct Node
 {
