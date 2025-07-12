@@ -11,6 +11,7 @@
 #include "merge_ranges.h";
 #include "plus_one.h"
 #include "pascal_triangle.h"
+#include "add_two_numbers_from_linked_lists.h"
 
 using namespace std;
 
@@ -38,7 +39,16 @@ int main()
 	//std::vector<int> listOfInts = { 1,2,3,4,5 };
 	//plusOne(listOfInts);
 
-	generate(5);
+	//generate(5);
+	Solution addTwoNumbersSolution;
+
+	int arr1[] = { 2,4,3 };
+	ListNode* headOfList1 = addTwoNumbersSolution.generateLinkedListFromArray(arr1, sizeof(arr1));
+
+	int arr2[] = { 5, 6, 4 };
+	ListNode* headOfList2 = addTwoNumbersSolution.generateLinkedListFromArray(arr2, sizeof(arr2));
+
+	addTwoNumbersSolution.addTwoNumbers(headOfList1, headOfList2);
 }
 	
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

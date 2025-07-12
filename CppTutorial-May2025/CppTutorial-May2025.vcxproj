@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
     <ClCompile Include="linked_list.cpp" />
@@ -140,6 +141,7 @@
     <ClCompile Include="value_switch.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="add_two_numbers_from_linked_lists.h" />
     <ClInclude Include="copy_by_value_vs_copy_by_reference.h" />
     <ClInclude Include="linked_list_custom.h" />
     <ClInclude Include="merge_ranges.h" />
@@ -147,6 +149,9 @@
     <ClInclude Include="passing_arrays_to_functions.h" />
     <ClInclude Include="plus_one.h" />
     <ClInclude Include="value_switch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="topics_to_study.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
