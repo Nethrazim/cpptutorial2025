@@ -138,6 +138,8 @@
     <ClCompile Include="passing_arrays_to_functions.cpp" />
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="prefix_sum.cpp" />
+    <ClCompile Include="same_tree.cpp" />
+    <ClCompile Include="sample_loader.cpp" />
     <ClCompile Include="value_switch.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +150,8 @@
     <ClInclude Include="pascal_triangle.h" />
     <ClInclude Include="passing_arrays_to_functions.h" />
     <ClInclude Include="plus_one.h" />
+    <ClInclude Include="same_tree.h" />
+    <ClInclude Include="sample_loader.h" />
     <ClInclude Include="value_switch.h" />
   </ItemGroup>
   <ItemGroup>

@@ -90,6 +90,12 @@
     <ClCompile Include="CppTutorial-May2025.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="same_tree.cpp">
+      <Filter>Source Files\leet_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list_custom.h">
@@ -115,6 +121,12 @@
     </ClInclude>
     <ClInclude Include="add_two_numbers_from_linked_lists.h">
       <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+    <ClInclude Include="same_tree.h">
+      <Filter>Header Files\leet_code</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_loader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
