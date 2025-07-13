@@ -29,5 +29,7 @@ void StartLeetCodeSameTree()
 	head2->left->right = new TreeNode(5);
 
 	SameTreeSolution sameTreeSolution;
-	std::cout << "Is Same Tree ? " << (sameTreeSolution.IsSameTree(head, head2, nullptr) == true ? "True" : "False") << std::endl;
+	bool isSameTree = sameTreeSolution.IsSameTree(head, head2);
+
+	std::cout << "Is Same Tree ? " << (isSameTree ? "True" : "False") << std::endl;
 }
