@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
+    <ClCompile Include="binary_search_tree.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
     <ClCompile Include="linked_list.cpp" />
@@ -151,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add_two_numbers_from_linked_lists.h" />
+    <ClInclude Include="binary_search_tree.h" />
     <ClInclude Include="copy_by_value_vs_copy_by_reference.h" />
     <ClInclude Include="linked_list.h" />
     <ClInclude Include="merge_ranges.h" />

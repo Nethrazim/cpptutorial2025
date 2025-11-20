@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_TRAVERSE_TREE_LEVEL_ORDER);
+	StartSample(TEST_INSERT_IN_BST);
 }

@@ -117,6 +117,9 @@
     <ClCompile Include="node_structures.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="binary_search_tree.cpp">
+      <Filter>Source Files\trees</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -153,6 +156,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="simple_tree.h">
+      <Filter>Header Files\trees</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search_tree.h">
       <Filter>Header Files\trees</Filter>
     </ClInclude>
   </ItemGroup>

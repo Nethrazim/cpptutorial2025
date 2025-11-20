@@ -12,6 +12,7 @@
 #include "pascal_triangle.h"
 #include "copy_by_value_vs_copy_by_reference.h"
 #include "simple_tree.h"
+#include "binary_search_tree.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -101,6 +102,14 @@ void StartSample(LoadingState sample)
 
 		case TEST_TRAVERSE_TREE_LEVEL_ORDER:
 			testTraverseTreeLevelOrder();
+			break;
+		
+		case TEST_FIND_MINIMUM_IN_BST:
+			testFindMinimumValueInBST();
+			break;
+
+		case TEST_INSERT_IN_BST:
+			testInsertInBST();
 			break;
 	}
 }
