@@ -138,12 +138,14 @@
     <ClCompile Include="CppTutorial-May2025.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="merge_ranges.cpp" />
+    <ClCompile Include="node_structures.h" />
     <ClCompile Include="pascal_triangle.cpp" />
     <ClCompile Include="passing_arrays_to_functions.cpp" />
     <ClCompile Include="plus_one.cpp" />
     <ClCompile Include="prefix_sum.cpp" />
     <ClCompile Include="same_tree.cpp" />
     <ClCompile Include="sample_loader.cpp" />
+    <ClCompile Include="simple_tree.cpp" />
     <ClCompile Include="value_switch.cpp" />
     <ClCompile Include="variables.cpp" />
   </ItemGroup>
@@ -157,6 +159,7 @@
     <ClInclude Include="plus_one.h" />
     <ClInclude Include="same_tree.h" />
     <ClInclude Include="sample_loader.h" />
+    <ClInclude Include="simple_tree.h" />
     <ClInclude Include="value_switch.h" />
     <ClInclude Include="variables.h" />
   </ItemGroup>

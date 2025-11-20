@@ -64,6 +64,12 @@
     <Filter Include="Source Files\core_concepts\variables">
       <UniqueIdentifier>{b12c6228-09af-4d22-b889-19ec30609ae7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\trees">
+      <UniqueIdentifier>{416088d8-3fb0-4170-8a2d-e6d79a785b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\trees">
+      <UniqueIdentifier>{a0a3981f-0279-4fdc-83b2-33f208547ad4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -105,6 +111,12 @@
     <ClCompile Include="variables.cpp">
       <Filter>Source Files\core_concepts\variables</Filter>
     </ClCompile>
+    <ClCompile Include="simple_tree.cpp">
+      <Filter>Source Files\trees</Filter>
+    </ClCompile>
+    <ClCompile Include="node_structures.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -139,6 +151,9 @@
     </ClInclude>
     <ClInclude Include="sample_loader.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_tree.h">
+      <Filter>Header Files\trees</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

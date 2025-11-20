@@ -10,6 +10,8 @@
 #include "plus_one.h"
 #include "add_two_numbers_from_linked_lists.h"
 #include "pascal_triangle.h"
+#include "copy_by_value_vs_copy_by_reference.h"
+#include "simple_tree.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -23,7 +25,7 @@ void testMergedRanges();
 void testPlusOne();
 
 void testAddTwoNumbersFromLinkedLists();
-
+void testReturnByReferenceOutOfScope();
 
 void StartSample(LoadingState sample)
 {
@@ -67,6 +69,38 @@ void StartSample(LoadingState sample)
 
 		case TEST_PASCAL_TRIANGLE:
 			generatePascalTriangle(5);
+			break;
+
+		case TEST_RETURN_BY_REFERENCE_OUT_OF_SCOPE:
+			testReturnByReferenceOutOfScope();
+			break;
+
+		case TEST_COPY_BY_VALUE:
+			testCopyByValue();
+			break;
+		
+		case TEST_COPY_BY_REFERENCE:
+			testCopyByReference();
+			break;
+
+		case TEST_TREE_SIZE:
+			testCalculateTreeSize();
+			break;
+
+		case TEST_TRAVERSE_TREE_IN_ORDER:
+			testTraverseTreeInOrder();
+			break;
+		
+		case TEST_TRAVERSE_TREE_PRE_ORDER:
+			testTraverseTreePreOrder();
+			break;
+		
+		case TEST_TRAVERSE_TREE_POST_ORDER:
+			testTraverseTreePostOrder();
+			break;
+
+		case TEST_TRAVERSE_TREE_LEVEL_ORDER:
+			testTraverseTreeLevelOrder();
 			break;
 	}
 }
@@ -163,4 +197,11 @@ void testAddTwoNumbersFromLinkedLists()
 void testPascalTriangle()
 {
 	generatePascalTriangle(5);
+}
+
+void testReturnByReferenceOutOfScope()
+{
+	int& ref = returnByReferenceOutOfScope();
+	std::cout << ref << std::endl;
+	std::cout << "At memory address " << &ref << " = " << ref << std::endl;
 }
