@@ -21,6 +21,7 @@ enum LoadingState {
 	TEST_TRAVERSE_TREE_LEVEL_ORDER,
 	TEST_FIND_MINIMUM_IN_BST,
 	TEST_INSERT_IN_BST,
+	TEST_INSERT_IN_BST_V2,
 };
 
 void StartSample(LoadingState sample);

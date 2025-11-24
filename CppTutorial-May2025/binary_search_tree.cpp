@@ -6,7 +6,7 @@
 
 int findMinimumValueInBSTV1(TreeNodeV2* node);
 TreeNodeV2* insertInBST(TreeNodeV2* root, int value);
-
+void insertInBSTV2(TreeNodeV2*& root, int value);
     //6
   //5 7
 //3 6 6 8
@@ -39,6 +39,18 @@ void testInsertInBST()
 	levelorder(root);
 }
 
+void testInsertInBSTV2()
+{
+	TreeNodeV2* root = new TreeNodeV2(22);
+	int valuesToInsert[] = { 12, 30, 8, 20, 30 };
+
+	for (int i = 0; i < sizeof(valuesToInsert) / sizeof(int); ++i)
+	{
+		insertInBSTV2(root, valuesToInsert[i]);
+	}
+
+	levelorder(root);
+}
 
 int findMinimumValueInBSTV1(TreeNodeV2* node)
 {
@@ -62,11 +74,31 @@ TreeNodeV2* insertInBST(TreeNodeV2* root, int value)
 	{
 		root->left = insertInBST(root->left, value);
 	}
-	else
+
+	if (value >= root->value)
 	{
 		root->right = insertInBST(root->right, value);
 	}
 
 	return root;
+}
 
+void insertInBSTV2(TreeNodeV2*& root, int value)
+{
+	if (root == nullptr)
+	{
+		root = new TreeNodeV2(value);
+		return;
+	}
+
+	if (value < root->value)
+	{
+		insertInBSTV2(root->left, value);
+	}
+
+	if (value >= root->value)
+	{
+		insertInBSTV2(root->right, value);
+	}
+	
 }

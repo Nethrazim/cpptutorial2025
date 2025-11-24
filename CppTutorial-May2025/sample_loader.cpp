@@ -111,6 +111,10 @@ void StartSample(LoadingState sample)
 		case TEST_INSERT_IN_BST:
 			testInsertInBST();
 			break;
+
+		case TEST_INSERT_IN_BST_V2:
+			testInsertInBSTV2();
+			break;
 	}
 }
 
