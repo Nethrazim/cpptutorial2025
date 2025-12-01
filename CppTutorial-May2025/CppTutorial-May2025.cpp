@@ -10,6 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_INSERT_IN_BST);
-	StartSample(TEST_INSERT_IN_BST_V2);
+	StartSample(TEST_CALCULATE_MAXIMUM_DEPTH);
 }

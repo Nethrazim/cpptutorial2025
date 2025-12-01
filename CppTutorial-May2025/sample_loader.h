@@ -22,6 +22,7 @@ enum LoadingState {
 	TEST_FIND_MINIMUM_IN_BST,
 	TEST_INSERT_IN_BST,
 	TEST_INSERT_IN_BST_V2,
+	TEST_CALCULATE_MAXIMUM_DEPTH
 };
 
 void StartSample(LoadingState sample);
