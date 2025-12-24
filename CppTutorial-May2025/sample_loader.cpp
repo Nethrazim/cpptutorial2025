@@ -3,6 +3,7 @@
 
 #include "sample_loader.h"
 
+#include "variables.h"
 #include "passing_arrays_to_functions.h"
 #include "same_tree.h"
 #include "linked_list.h"
@@ -13,6 +14,7 @@
 #include "copy_by_value_vs_copy_by_reference.h"
 #include "simple_tree.h"
 #include "binary_search_tree.h"
+#include "avl_tree.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -32,6 +34,22 @@ void StartSample(LoadingState sample)
 {
 	switch (sample)
 	{
+		case TEST_VARIABLE_GLOBAL_VS_LOCAL:
+			testLocalVsGlobalVariable();
+			break;
+		
+		case TEST_VARIABLE_GLOBAL_UNINITIALIZED:
+			test_a_variable_not_initialized();
+			break;
+
+		case TEST_SCOPE_VARIABLES:
+			testScopeVariables();
+			break;
+
+		case TEST_CONSTANT_VARIABLES:
+			testConstantVariables();
+			break;
+
 		case TEST_PASS_BY_SIZED_ARRAY:
 			testPassBySizedArray();
 			break;
@@ -118,6 +136,10 @@ void StartSample(LoadingState sample)
 		
 		case TEST_CALCULATE_MAXIMUM_DEPTH:
 			testCalculateMaximumDepth();
+			break;
+
+		case TEST_AVL_INSERT:
+			testAvlInsert();
 			break;
 	}
 }

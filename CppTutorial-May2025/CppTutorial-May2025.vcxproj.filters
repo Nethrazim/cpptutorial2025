@@ -70,6 +70,12 @@
     <Filter Include="Header Files\trees">
       <UniqueIdentifier>{a0a3981f-0279-4fdc-83b2-33f208547ad4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\trees\balanced_trees">
+      <UniqueIdentifier>{2380b412-e2ea-4795-ab45-67b6be405b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\trees\balanced_trees">
+      <UniqueIdentifier>{c383b46e-8897-419e-8370-41bfa4089924}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -120,6 +126,9 @@
     <ClCompile Include="binary_search_tree.cpp">
       <Filter>Source Files\trees</Filter>
     </ClCompile>
+    <ClCompile Include="avl_tree.cpp">
+      <Filter>Source Files\trees\balanced_trees</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -160,6 +169,9 @@
     </ClInclude>
     <ClInclude Include="binary_search_tree.h">
       <Filter>Header Files\trees</Filter>
+    </ClInclude>
+    <ClInclude Include="avl_tree.h">
+      <Filter>Header Files\trees\balanced_trees</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

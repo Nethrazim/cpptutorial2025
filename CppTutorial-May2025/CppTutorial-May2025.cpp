@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_CALCULATE_MAXIMUM_DEPTH);
+	StartSample(TEST_CONSTANT_VARIABLES);
 }
