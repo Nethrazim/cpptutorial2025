@@ -179,6 +179,9 @@
     <ClInclude Include="avl_tree.h">
       <Filter>Header Files\trees\balanced_trees</Filter>
     </ClInclude>
+    <ClInclude Include="Sales_item.h">
+      <Filter>Header Files\C++Prime</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="topics_to_study.txt" />
