@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_CONSTANT_VARIABLES);
+	StartSample(TEST_DANGLING_REFERENCES);
 }

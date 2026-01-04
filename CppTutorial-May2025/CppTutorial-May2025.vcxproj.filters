@@ -76,6 +76,12 @@
     <Filter Include="Header Files\trees\balanced_trees">
       <UniqueIdentifier>{c383b46e-8897-419e-8370-41bfa4089924}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\C++Prime">
+      <UniqueIdentifier>{f9e4b1e6-899d-4049-b9a1-ac954c07bec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C++Prime">
+      <UniqueIdentifier>{3534bf96-201c-4d70-8975-25066b92b842}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">

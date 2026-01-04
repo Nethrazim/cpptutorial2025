@@ -93,3 +93,9 @@ void testConstantVariables()
 	std::cout << asd << std::endl;
 	std::cout << "New address of pASD : " << pASD << std::endl;
 }
+
+int& testDanglingReferences()
+{
+	int x = 10;
+	return x; //BAD x is destroyed after stack pop
+}

@@ -1,3 +1,5 @@
+#include <thread>
+#include <chrono>
 #include <iostream>
 #include <tuple>
 
@@ -29,6 +31,8 @@ void testPlusOne();
 
 void testAddTwoNumbersFromLinkedLists();
 void testReturnByReferenceOutOfScope();
+int& testDanglingReferences();
+void testDanglingRefs();
 
 void StartSample(LoadingState sample)
 {
@@ -141,6 +145,10 @@ void StartSample(LoadingState sample)
 		case TEST_AVL_INSERT:
 			testAvlInsert();
 			break;
+
+		case TEST_DANGLING_REFERENCES:
+			testDanglingRefs();
+			break;
 	}
 }
 
@@ -243,4 +251,20 @@ void testReturnByReferenceOutOfScope()
 	int& ref = returnByReferenceOutOfScope();
 	std::cout << ref << std::endl;
 	std::cout << "At memory address " << &ref << " = " << ref << std::endl;
+}
+
+void testDanglingRefs()
+{
+	int asd = 10;
+	int& bsd = asd;
+	
+	bsd = 20;
+	std::cout << asd << std::endl;
+
+	int& c = testDanglingReferences();
+	
+	//Trying to make undefined behavior happen
+	std::this_thread::sleep_for(std::chrono::milliseconds(500));
+	
+	std::cout << "Dangling references C = " << c << std::endl;
 }
