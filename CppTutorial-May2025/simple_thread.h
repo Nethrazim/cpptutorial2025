@@ -1,0 +1,5 @@
+namespace MultithreadindConcurrency
+{
+	void testSimpleThreads();
+}
+

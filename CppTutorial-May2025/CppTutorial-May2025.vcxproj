@@ -149,6 +149,7 @@
     <ClCompile Include="prefix_sum.cpp" />
     <ClCompile Include="same_tree.cpp" />
     <ClCompile Include="sample_loader.cpp" />
+    <ClCompile Include="simple_thread.cpp" />
     <ClCompile Include="simple_tree.cpp" />
     <ClCompile Include="value_switch.cpp" />
     <ClCompile Include="variables.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="same_tree.h" />
     <ClInclude Include="sample_loader.h" />
+    <ClInclude Include="simple_thread.h" />
     <ClInclude Include="simple_tree.h" />
     <ClInclude Include="value_switch.h" />
     <ClInclude Include="variables.h" />

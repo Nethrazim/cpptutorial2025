@@ -82,6 +82,15 @@
     <Filter Include="Header Files\C++Prime">
       <UniqueIdentifier>{3534bf96-201c-4d70-8975-25066b92b842}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\multithreading_concurrency">
+      <UniqueIdentifier>{2c3df382-ee31-4334-b092-66e67fd297b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lambda">
+      <UniqueIdentifier>{bba2d92a-57c7-4e8f-964c-400efd390773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lambda">
+      <UniqueIdentifier>{c45b9ff2-74ec-4931-9211-0ca88b911eae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -138,6 +147,9 @@
     <ClCompile Include="basic_sale_items_ops.cpp">
       <Filter>Source Files\C++Prime</Filter>
     </ClCompile>
+    <ClCompile Include="simple_thread.cpp">
+      <Filter>Source Files\multithreading_concurrency</Filter>
+    </ClCompile>
     <ClCompile Include="for_ex.cpp">
       <Filter>Source Files\C++Prime</Filter>
     </ClCompile>
@@ -190,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="basic_sale_item_ops.h">
       <Filter>Header Files\C++Prime</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_thread.h">
+      <Filter>Header Files\multithreading_concurrency</Filter>
     </ClInclude>
     <ClInclude Include="for_ex.h">
       <Filter>Header Files\C++Prime</Filter>

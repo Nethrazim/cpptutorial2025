@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_AVG_PRICE_SALE_ITEMS);
+	StartSample(TEST_SIMPLE_THREADS);
 }

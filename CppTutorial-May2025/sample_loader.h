@@ -33,6 +33,7 @@ enum LoadingState {
 	TEST_SAME_ISBN_SALE_ITEMS,
 	TEST_AVG_PRICE_SALE_ITEMS,
 	TEST_FOR_EX,
+	TEST_SIMPLE_THREADS,
 };
 
 void StartSample(LoadingState sample);
