@@ -17,6 +17,7 @@
 #include "simple_tree.h"
 #include "binary_search_tree.h"
 #include "avl_tree.h"
+#include "add.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -148,6 +149,10 @@ void StartSample(LoadingState sample)
 
 		case TEST_DANGLING_REFERENCES:
 			testDanglingRefs();
+			break;
+
+		case TEST_ADD_SALE_ITEMS:
+			Chapter1::addTwoSaleItemsKeyboard();
 			break;
 	}
 }

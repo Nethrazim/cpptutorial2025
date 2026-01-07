@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_DANGLING_REFERENCES);
+	StartSample(TEST_ADD_SALE_ITEMS);
 }
