@@ -25,3 +25,20 @@ void Chapter1::addTwoSaleItemsKeyboard()
 
 	std::cout << item1 + item2 << std::endl;
 }
+
+void Chapter1::checkSaleItemISBN()
+{
+	Sales_item item1, item2;
+	std::cin >> item1 >> item2;
+
+	if (item1.isbn() == item2.isbn())
+	{
+		std::cout << item1 + item2 << std::endl;
+		return;
+	}
+	else
+	{
+		std::cerr << "Data must relate to the same ISBN" << std::endl;
+		return;
+	}
+}

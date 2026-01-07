@@ -154,6 +154,10 @@ void StartSample(LoadingState sample)
 		case TEST_ADD_SALE_ITEMS:
 			Chapter1::addTwoSaleItemsKeyboard();
 			break;
+
+		case TEST_SAME_ISBN_SALE_ITEMS:
+			Chapter1::checkSaleItemISBN();
+			break;
 	}
 }
 
