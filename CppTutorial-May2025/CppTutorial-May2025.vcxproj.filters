@@ -138,6 +138,9 @@
     <ClCompile Include="basic_sale_items_ops.cpp">
       <Filter>Source Files\C++Prime</Filter>
     </ClCompile>
+    <ClCompile Include="for_ex.cpp">
+      <Filter>Source Files\C++Prime</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -186,6 +189,9 @@
       <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
     <ClInclude Include="basic_sale_item_ops.h">
+      <Filter>Header Files\C++Prime</Filter>
+    </ClInclude>
+    <ClInclude Include="for_ex.h">
       <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
   </ItemGroup>

@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -139,6 +139,7 @@
     <ClCompile Include="binary_search_tree.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
+    <ClCompile Include="for_ex.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="merge_ranges.cpp" />
     <ClCompile Include="node_structures.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="avl_tree.h" />
     <ClInclude Include="binary_search_tree.h" />
     <ClInclude Include="copy_by_value_vs_copy_by_reference.h" />
+    <ClInclude Include="for_ex.h" />
     <ClInclude Include="linked_list.h" />
     <ClInclude Include="merge_ranges.h" />
     <ClInclude Include="pascal_triangle.h" />

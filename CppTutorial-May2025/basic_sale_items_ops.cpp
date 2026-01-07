@@ -69,3 +69,36 @@ void Chapter1::checkSaleItemISBN()
 		return;
 	}
 }
+
+
+void Chapter1::basicInput()
+{
+	Sales_item book;
+
+	std::cin >> book;
+
+	std::cout << book << std::endl;
+}
+
+void Chapter1::countOccurance() {
+	int currVal = 0, val = 0;
+
+	if (std::cin >> currVal) {
+		int cnt = 1;
+
+		while (std::cin >> val) {
+			if (val == currVal) {
+				++cnt;
+			}
+			else {
+				std::cout << currVal << " occurs "
+					<< cnt << " times " << std::endl;
+				currVal = val;
+				cnt = 1;
+			}
+		}
+
+		std::cout << currVal << " occurs "
+			<< cnt << " times" << std::endl;
+	}
+}

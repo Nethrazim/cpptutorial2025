@@ -18,6 +18,7 @@
 #include "binary_search_tree.h"
 #include "avl_tree.h"
 #include "basic_sale_item_ops.h"
+#include "for_ex.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -161,6 +162,10 @@ void StartSample(LoadingState sample)
 
 		case TEST_AVG_PRICE_SALE_ITEMS:
 			Chapter1::avgPriceSaleItem();
+			break;
+
+		case TEST_FOR_EX:
+			for_ex();
 			break;
 	}
 }
