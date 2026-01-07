@@ -1,5 +1,5 @@
 #include <iostream>
-#include "add.h"
+#include "basic_sale_item_ops.h"
 #include "Sales_item.h"
 
 namespace Chapter1
@@ -13,6 +13,33 @@ namespace Chapter1
 
 		std::cout << "The sum of " << v1 << " and " << v2
 			<< " is " << v1 + v2;
+	}
+
+	void avgPriceSaleItem()
+	{
+		Sales_item total;
+
+		if (std::cin >> total) {
+			Sales_item trans;
+
+			while (std::cin >> trans)
+			{
+				if (total.isbn() == trans.isbn())
+				{
+					total += trans;
+				}
+				else
+				{
+					std::cout << total << std::endl;
+					total = trans;
+				}
+			}
+
+			std::cout << total << std::endl;
+		}
+		else {
+			std::cerr << "No data?!" << std::endl;
+		}
 	}
 }
 

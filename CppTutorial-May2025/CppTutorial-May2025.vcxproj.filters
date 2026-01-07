@@ -135,7 +135,7 @@
     <ClCompile Include="avl_tree.cpp">
       <Filter>Source Files\trees\balanced_trees</Filter>
     </ClCompile>
-    <ClCompile Include="add.cpp">
+    <ClCompile Include="basic_sale_items_ops.cpp">
       <Filter>Source Files\C++Prime</Filter>
     </ClCompile>
   </ItemGroup>
@@ -185,7 +185,7 @@
     <ClInclude Include="Sales_item.h">
       <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
-    <ClInclude Include="add.h">
+    <ClInclude Include="basic_sale_item_ops.h">
       <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
   </ItemGroup>

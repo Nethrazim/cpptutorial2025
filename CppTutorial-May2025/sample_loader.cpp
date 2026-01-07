@@ -17,7 +17,7 @@
 #include "simple_tree.h"
 #include "binary_search_tree.h"
 #include "avl_tree.h"
-#include "add.h"
+#include "basic_sale_item_ops.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -157,6 +157,10 @@ void StartSample(LoadingState sample)
 
 		case TEST_SAME_ISBN_SALE_ITEMS:
 			Chapter1::checkSaleItemISBN();
+			break;
+
+		case TEST_AVG_PRICE_SALE_ITEMS:
+			Chapter1::avgPriceSaleItem();
 			break;
 	}
 }

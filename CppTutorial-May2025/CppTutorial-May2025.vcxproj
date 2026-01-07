@@ -133,7 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="add.cpp" />
+    <ClCompile Include="basic_sale_items_ops.cpp" />
     <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="avl_tree.cpp" />
     <ClCompile Include="binary_search_tree.cpp" />
@@ -153,7 +153,7 @@
     <ClCompile Include="variables.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add.h" />
+    <ClInclude Include="basic_sale_item_ops.h" />
     <ClInclude Include="add_two_numbers_from_linked_lists.h" />
     <ClInclude Include="avl_tree.h" />
     <ClInclude Include="binary_search_tree.h" />
