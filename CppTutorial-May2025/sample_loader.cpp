@@ -4,23 +4,8 @@
 #include <tuple>
 
 #include "sample_loader.h"
+#include "sample_loader_includes.h"
 
-#include "variables.h"
-#include "passing_arrays_to_functions.h"
-#include "same_tree.h"
-#include "linked_list.h"
-#include "merge_ranges.h"
-#include "plus_one.h"
-#include "add_two_numbers_from_linked_lists.h"
-#include "pascal_triangle.h"
-#include "copy_by_value_vs_copy_by_reference.h"
-#include "simple_tree.h"
-#include "binary_search_tree.h"
-#include "avl_tree.h"
-#include "basic_sale_item_ops.h"
-#include "simple_thread.h"
-#include "for_ex.h"
-#include "compound_declaration.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -176,6 +161,10 @@ void StartSample(LoadingState sample)
 			
 		case TEST_FOR_COMPOUND_DECLARATIONS_POINTERS_REFERNCES:
 			testCompoundDeclarations();
+			break;
+
+		case TEST_FOR_CONVERSIONS:
+			testConversion();
 			break;
 	}
 }
