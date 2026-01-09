@@ -19,6 +19,7 @@
 #include "avl_tree.h"
 #include "basic_sale_item_ops.h"
 #include "for_ex.h"
+#include "compound_declaration.h"
 
 //Forward declarations
 void testPassBySizedArray();
@@ -166,6 +167,10 @@ void StartSample(LoadingState sample)
 
 		case TEST_FOR_EX:
 			for_ex();
+			break;
+
+		case TEST_FOR_COMPOUND_DECLARATIONS_POINTERS_REFERNCES:
+			testCompoundDeclarations();
 			break;
 	}
 }

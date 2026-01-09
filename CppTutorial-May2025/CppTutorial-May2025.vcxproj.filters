@@ -82,6 +82,18 @@
     <Filter Include="Header Files\C++Prime">
       <UniqueIdentifier>{3534bf96-201c-4d70-8975-25066b92b842}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\C++Prime\chapter1">
+      <UniqueIdentifier>{0b4e38f7-218c-4477-8583-8b0431e15465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C++Prime\chapter1">
+      <UniqueIdentifier>{bb1ca445-45e1-4053-bb45-c8a8c42d3571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C++Prime\chapter2">
+      <UniqueIdentifier>{6b2ff239-6f42-4307-b158-19c993f0ad3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C++Prime\chapter2">
+      <UniqueIdentifier>{69d8a887-7c98-401f-bda7-a3a0d31be4ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -136,10 +148,13 @@
       <Filter>Source Files\trees\balanced_trees</Filter>
     </ClCompile>
     <ClCompile Include="basic_sale_items_ops.cpp">
-      <Filter>Source Files\C++Prime</Filter>
+      <Filter>Source Files\C++Prime\chapter1</Filter>
     </ClCompile>
     <ClCompile Include="for_ex.cpp">
-      <Filter>Source Files\C++Prime</Filter>
+      <Filter>Source Files\C++Prime\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="compound_declaration.cpp">
+      <Filter>Source Files\C++Prime\chapter2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -189,10 +204,13 @@
       <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
     <ClInclude Include="basic_sale_item_ops.h">
-      <Filter>Header Files\C++Prime</Filter>
+      <Filter>Header Files\C++Prime\chapter1</Filter>
     </ClInclude>
     <ClInclude Include="for_ex.h">
-      <Filter>Header Files\C++Prime</Filter>
+      <Filter>Header Files\C++Prime\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="compound_declaration.h">
+      <Filter>Header Files\C++Prime\chapter2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
