@@ -93,6 +93,7 @@
     </Filter>
     <Filter Include="Source Files\C++Prime\chapter2">
       <UniqueIdentifier>{69d8a887-7c98-401f-bda7-a3a0d31be4ac}</UniqueIdentifier>
+	</Filter>
     <Filter Include="Header Files\multithreading_concurrency">
       <UniqueIdentifier>{2c3df382-ee31-4334-b092-66e67fd297b4}</UniqueIdentifier>
     </Filter>
