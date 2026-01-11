@@ -13,7 +13,7 @@ void testCompoundDeclarations() {
 	//prints the value of j, which is the int to which p2 points
 	std::cout << *pref << std::endl;
 
-	//pref refers to a pointerl assigning &i to pref makes p point to i
+	//pref refers to a pointer assigning &i to pref makes p point to i
 	pref = &i;
 	std::cout << *pref << std::endl; //prints the value of i
 	std::cout << *p2 << std::endl;

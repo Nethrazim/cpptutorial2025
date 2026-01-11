@@ -1,4 +1,5 @@
 #pragma once
+
 #include "variables.h"
 #include "passing_arrays_to_functions.h"
 #include "same_tree.h"
@@ -17,3 +18,4 @@
 #include "compound_declaration.h"
 #include "conversions.h"
 #include "double_pointer.h"
+#include "declarations.h"

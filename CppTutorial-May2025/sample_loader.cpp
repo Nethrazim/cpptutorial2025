@@ -178,19 +178,21 @@ void StartSample(LoadingState sample)
 		case TEST_FOR_DOUBLE_POINTERS:
 			testDoublePointer();
 			break;
+
+		case TEST_DECLARATIONS:
+			testDeclarations();
+			break;
 	}
 }
 
 /* == == == == START tests passing_arrays_to_functions == == == ==*/
 
-void testPassBySizedArray()
-{
+void testPassBySizedArray() {
 	int arr[5] = { 1, 2, 3, 4, 5 };
 	passBySizedArray(arr);
 }
 
-void testPassUnsizedArray()
-{
+void testPassUnsizedArray() {
 	int arr[] = { 0, 1, 2, 3, 4, 5 };
 	std::cout << "Size of array: " << sizeof(arr) << std::endl;
 	int size = sizeof(arr) / sizeof(int);
@@ -198,22 +200,19 @@ void testPassUnsizedArray()
 	passUnsizedArray(arr, size);
 }
 
-void testPassAnArrayPointer()
-{
+void testPassAnArrayPointer() {
 	int arr[] = { 21, 22, 23, 24, 25 };
 	passAnArrayPointer(arr, sizeof(arr) / sizeof(int));
 }
 
-void testVector()
-{
+void testVector() {
 	testing_vector();
 }
 /* == == == == END tests passing_arrays_to_functions == == == ==*/
 
  
 
-void testLeetCodeSameTree()
-{
+void testLeetCodeSameTree() {
 	TreeNode* head = new TreeNode(1);
 	head->left = new TreeNode(2);
 	head->right = new TreeNode(1);
@@ -229,15 +228,13 @@ void testLeetCodeSameTree()
 	std::cout << "Is Same Tree ? " << (isSameTree ? "True" : "False") << std::endl;
 }
 
-void testPrintLinkedList()
-{
+void testPrintLinkedList() {
 	Node* head = populateLinkedList(10);
 	printLinkedList(head);
 }
 
 
-void testMergedRanges()
-{
+void testMergedRanges() {
 	std::vector<std::tuple<int, int>> aRange = {
 		{7, 11},
 		{13,15},
@@ -251,14 +248,12 @@ void testMergedRanges()
 }
 
 
-void testPlusOne()
-{
+void testPlusOne() {
 	std::vector<int> listOfInts = { 1,2,3,4,5 };
 	plusOne(listOfInts);
 }
 
-void testAddTwoNumbersFromLinkedLists()
-{
+void testAddTwoNumbersFromLinkedLists() {
 	Solution addTwoNumbersSolution;
 
 	int arr1[] = { 2,4,3 };
@@ -270,20 +265,17 @@ void testAddTwoNumbersFromLinkedLists()
 	addTwoNumbersSolution.addTwoNumbers(headOfList1, headOfList2);
 }
 
-void testPascalTriangle()
-{
+void testPascalTriangle() {
 	generatePascalTriangle(5);
 }
 
-void testReturnByReferenceOutOfScope()
-{
+void testReturnByReferenceOutOfScope() {
 	int& ref = returnByReferenceOutOfScope();
 	std::cout << ref << std::endl;
 	std::cout << "At memory address " << &ref << " = " << ref << std::endl;
 }
 
-void testDanglingRefs()
-{
+void testDanglingRefs() {
 	int asd = 10;
 	int& bsd = asd;
 	
