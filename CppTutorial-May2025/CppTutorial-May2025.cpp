@@ -10,5 +10,5 @@
 
 int main()
 {
-	StartSample(TEST_FOR_CONVERSIONS);
+	StartSample(TEST_FOR_DOUBLE_POINTERS);
 }

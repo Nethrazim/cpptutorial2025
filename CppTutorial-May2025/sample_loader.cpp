@@ -158,13 +158,25 @@ void StartSample(LoadingState sample)
 		case TEST_SIMPLE_THREADS:
 			MultithreadindConcurrency::testSimpleThreads();
 			break;
-			
+
+		case TEST_THREADS_WITH_MUTEX:
+			MultithreadindConcurrency::testThreadsWithMutex();
+			break;
+
+		case TEST_THREADS_WITHOUT_MUTEX:
+			MultithreadindConcurrency::testThreadsWithoutMutex();
+			break;
+		
 		case TEST_FOR_COMPOUND_DECLARATIONS_POINTERS_REFERNCES:
 			testCompoundDeclarations();
 			break;
 
 		case TEST_FOR_CONVERSIONS:
 			testConversion();
+			break;
+		
+		case TEST_FOR_DOUBLE_POINTERS:
+			testDoublePointer();
 			break;
 	}
 }

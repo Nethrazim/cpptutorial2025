@@ -138,8 +138,10 @@
     <ClCompile Include="avl_tree.cpp" />
     <ClCompile Include="binary_search_tree.cpp" />
     <ClCompile Include="compound_declaration.cpp" />
+    <ClCompile Include="conversions.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
+    <ClCompile Include="double_pointer.cpp" />
     <ClCompile Include="for_ex.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="merge_ranges.cpp" />
@@ -161,7 +163,9 @@
     <ClInclude Include="avl_tree.h" />
     <ClInclude Include="binary_search_tree.h" />
     <ClInclude Include="compound_declaration.h" />
+    <ClInclude Include="conversions.h" />
     <ClInclude Include="copy_by_value_vs_copy_by_reference.h" />
+    <ClInclude Include="double_pointer.h" />
     <ClInclude Include="for_ex.h" />
     <ClInclude Include="linked_list.h" />
     <ClInclude Include="merge_ranges.h" />
@@ -171,6 +175,7 @@
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="same_tree.h" />
     <ClInclude Include="sample_loader.h" />
+    <ClInclude Include="sample_loader_includes.h" />
     <ClInclude Include="simple_thread.h" />
     <ClInclude Include="simple_tree.h" />
     <ClInclude Include="value_switch.h" />

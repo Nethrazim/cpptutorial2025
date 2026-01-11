@@ -1,5 +1,6 @@
 #include <iostream>
 #include <thread>
+#include <mutex>
 
 namespace MultithreadindConcurrency
 {
@@ -36,5 +37,40 @@ namespace MultithreadindConcurrency
 		std::thread t([] {
 			std::cout << "Hello from thread\n";
 		});
+	}
+
+	int counter = 0;
+	std::mutex m;
+
+
+	void increment() {
+		for (int i = 0; i < 1000; ++i)
+		{
+			std::lock_guard<std::mutex> lock(m);
+			counter++;
+		}
+	}
+
+	void testThreadsWithMutex() {
+		std::thread t1(increment);
+		std::thread t2(increment);
+
+		t1.join();
+		t2.join();
+
+		std::cout << "Counter = " << counter << "\n";
+	}
+
+	void testThreadsWithoutMutex()
+	{
+		std::cout << "should be 2000" << std::endl;
+
+		std::thread t1(increment);
+		std::thread t2(increment);
+
+		t1.join();
+		t2.join();
+
+		std::cout << "Counter = " << counter << "\n";
 	}
 }
