@@ -99,3 +99,10 @@ int& testDanglingReferences()
 	int x = 10;
 	return x; //BAD x is destroyed after stack pop
 }
+
+void testVariableInitializationMethods()
+{
+	int V1 = 42.3;
+	int v2 = { 42 };
+	//int v3 = { 42.3 };//this is a narrowin conversion error
+}

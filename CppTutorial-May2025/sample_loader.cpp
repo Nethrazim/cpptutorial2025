@@ -35,6 +35,10 @@ void StartSample(LoadingState sample)
 			test_a_variable_not_initialized();
 			break;
 
+		case TEST_VARIABLE_INITS:
+			testVariableInitializationMethods();
+			break;
+
 		case TEST_SCOPE_VARIABLES:
 			testScopeVariables();
 			break;

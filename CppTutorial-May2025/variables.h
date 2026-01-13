@@ -5,3 +5,4 @@ void testLocalVsGlobalVariable();
 void testScopeVariables();
 void testConstantVariables();
 int& testDanglingReferences();
+void testVariableInitializationMethods();
