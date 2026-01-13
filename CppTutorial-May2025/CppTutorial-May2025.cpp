@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_UNARY_MINUS_ON_UNSIGNED);
+	StartSample(TEST_FIRST_MISSING_POSITIVE);
 	
 	return 0;
 }

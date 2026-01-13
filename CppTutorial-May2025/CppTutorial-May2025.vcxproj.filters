@@ -93,7 +93,7 @@
     </Filter>
     <Filter Include="Source Files\C++Prime\chapter2">
       <UniqueIdentifier>{69d8a887-7c98-401f-bda7-a3a0d31be4ac}</UniqueIdentifier>
-	</Filter>
+    </Filter>
     <Filter Include="Header Files\multithreading_concurrency">
       <UniqueIdentifier>{2c3df382-ee31-4334-b092-66e67fd297b4}</UniqueIdentifier>
     </Filter>
@@ -168,6 +168,18 @@
     <ClCompile Include="compound_declaration.cpp">
       <Filter>Source Files\C++Prime\chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="conversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="declarations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="double_pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_some1.cpp">
+      <Filter>Source Files\core_concepts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -226,6 +238,18 @@
     </ClInclude>
     <ClInclude Include="compound_declaration.h">
       <Filter>Header Files\C++Prime\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="declarations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="double_pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_loader_includes.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
