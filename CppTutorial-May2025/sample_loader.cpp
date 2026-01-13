@@ -22,11 +22,14 @@ void testAddTwoNumbersFromLinkedLists();
 void testReturnByReferenceOutOfScope();
 int& testDanglingReferences();
 void testDanglingRefs();
-
+void testPrintHexAndOctal();
 void StartSample(LoadingState sample)
 {
 	switch (sample)
 	{
+		case TEST_UNARY_MINUS_ON_UNSIGNED:
+			testPrintHexAndOctal();
+			break;
 		case TEST_VARIABLE_GLOBAL_VS_LOCAL:
 			testLocalVsGlobalVariable();
 			break;

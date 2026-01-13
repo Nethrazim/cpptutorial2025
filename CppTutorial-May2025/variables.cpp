@@ -106,3 +106,21 @@ void testVariableInitializationMethods()
 	int v2 = { 42 };
 	//int v3 = { 42.3 };//this is a narrowin conversion error
 }
+
+
+void testPrintHexAndOctal()
+{
+	std::cout << "Hello World!" << std::endl;
+	std::cout << "";
+
+	std::cout << "\nCC\toptions\tfile.[cC]\n";
+
+	std::cout << "Mama mia"
+		" mama mia" << std::endl;
+
+	std::cout << 'M' << " " << '\115' << " " << '\x4d' << std::endl;
+
+	//unsigned long long bigVal = -1ULL; //modular arithematic
+
+	//std::cout << bigVal << std::endl; // prints a really big unsigned number because unary - was applied on unsigned long long ULL
+}
