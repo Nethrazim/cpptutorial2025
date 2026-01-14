@@ -93,6 +93,14 @@ namespace MultithreadindConcurrency
 
 			turnA = false;
 			cv.notify_one();
+			
+			cv.wait(lock, [] { return turnA; });
+
+			std::cout << "Thread A second part working\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+
+			turnA = false;
+			cv.notify_one();
 		}
 	}
 
@@ -103,6 +111,15 @@ namespace MultithreadindConcurrency
 			cv.wait(lock, [] { return !turnA; });
 
 			std::cout << "Thread  B working\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+
+			turnA = true;
+			cv.notify_one();
+			
+
+			cv.wait(lock, [] { return !turnA; });
+
+			std::cout << "Thread B second part working\n";
 			std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
 			turnA = true;
