@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_FIRST_MISSING_POSITIVE);
+	StartSample(TEST_THREADS_TAKING_TURNS);
 	
 	return 0;
 }

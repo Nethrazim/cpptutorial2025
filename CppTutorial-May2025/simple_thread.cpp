@@ -1,6 +1,9 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include <condition_variable>
+#include <chrono>
+
 
 namespace MultithreadindConcurrency
 {
@@ -72,5 +75,46 @@ namespace MultithreadindConcurrency
 		t2.join();
 
 		std::cout << "Counter = " << counter << "\n";
+	}
+	
+	std::mutex mtx;
+	std::condition_variable cv;
+	bool turnA = true;
+
+
+	void threadA()
+	{
+		while (true) {
+			std::unique_lock<std::mutex> lock(mtx);
+			cv.wait(lock, [] { return turnA; });
+
+			std::cout << "Thread A working\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+
+			turnA = false;
+			cv.notify_one();
+		}
+	}
+
+	void threadB()
+	{
+		while (true) {
+			std::unique_lock<std::mutex> lock(mtx);
+			cv.wait(lock, [] { return !turnA; });
+
+			std::cout << "Thread  B working\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+
+			turnA = true;
+			cv.notify_one();
+		}
+	}
+
+	void testThreadsTakingTurns() {
+		std::thread tA(threadA);
+		std::thread tB(threadB);
+		
+		tA.join();
+		tB.join();
 	}
 }

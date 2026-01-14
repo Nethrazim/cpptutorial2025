@@ -179,6 +179,9 @@ void StartSample(LoadingState sample)
 		case TEST_THREADS_WITHOUT_MUTEX:
 			MultithreadindConcurrency::testThreadsWithoutMutex();
 			break;
+		case TEST_THREADS_TAKING_TURNS:
+			MultithreadindConcurrency::testThreadsTakingTurns();
+			break;
 		
 		case TEST_FOR_COMPOUND_DECLARATIONS_POINTERS_REFERNCES:
 			testCompoundDeclarations();
