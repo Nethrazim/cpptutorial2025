@@ -198,6 +198,10 @@ void StartSample(LoadingState sample)
 		case TEST_DECLARATIONS:
 			testDeclarations();
 			break;
+
+		case TEST_VECTOR_GRADES_FILLING:
+			testVectorGrades();
+			break;
 	}
 }
 

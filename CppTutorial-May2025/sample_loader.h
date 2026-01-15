@@ -44,6 +44,7 @@ enum LoadingState {
 	TEST_FOR_CONVERSIONS,
 	TEST_FOR_DOUBLE_POINTERS,
 	TEST_DECLARATIONS,
+	TEST_VECTOR_GRADES_FILLING
 };
 
 void StartSample(LoadingState sample);

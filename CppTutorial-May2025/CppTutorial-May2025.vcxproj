@@ -158,6 +158,7 @@
     <ClCompile Include="test_some1.cpp" />
     <ClCompile Include="value_switch.cpp" />
     <ClCompile Include="variables.cpp" />
+    <ClCompile Include="vector_grades.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="basic_sale_item_ops.h" />

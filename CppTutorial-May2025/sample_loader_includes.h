@@ -19,3 +19,5 @@
 #include "conversions.h"
 #include "double_pointer.h"
 #include "declarations.h"
+
+void testVectorGrades();
