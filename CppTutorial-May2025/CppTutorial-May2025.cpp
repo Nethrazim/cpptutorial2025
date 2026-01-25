@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_DECLARATIONS_AND_STRING_MANIPULATION2);
+	StartSample(TEST_CHAR_COMPARISON);
 	
 	return 0;
 }

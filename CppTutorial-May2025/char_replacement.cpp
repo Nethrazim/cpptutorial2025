@@ -42,3 +42,34 @@ void testMultipleCharReplacementTechniques() {
 	cout << str << endl;
 	str = orig;
 }
+
+
+void testCharComparison() {
+	string s1 = "A string example";
+	string s2 = "A different thing";
+
+	if (s1 < s2) {
+		cout << s1 << endl;
+	}
+	else {
+		cout << s2 << endl;
+	}
+
+	const char ca1[] = "A string example";
+	const char ca2[] = "A different string";
+
+	if (strcmp(ca1, ca2) < 0) {
+		cout << ca1 << endl;
+	}
+	else {
+		cout << ca2 << endl;
+	}
+	
+	const char* cp1 = ca1, * cp2 = ca2;
+	//some extras
+	int a[] = { 1, 2 };
+	cout << "sizeof(a) " << sizeof(a) << endl;
+	
+	int* aPtr = a;
+	cout << "sizeof(aPtr) " << sizeof(aPtr) << endl;
+}
