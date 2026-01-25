@@ -109,6 +109,9 @@
     <Filter Include="Source Files\C++Prime\chapter3">
       <UniqueIdentifier>{c7f8ef55-e7f5-4849-acbf-8ec27318f32f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\C++Reference">
+      <UniqueIdentifier>{06755199-ce35-4ad6-abe3-499f488c9af8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -188,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="declarations.cpp">
       <Filter>Source Files\C++Prime\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ctype.cpp">
+      <Filter>Source Files\C++Prime\chapter3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

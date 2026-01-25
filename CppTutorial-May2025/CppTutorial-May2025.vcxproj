@@ -141,6 +141,7 @@
     <ClCompile Include="conversions.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
+    <ClCompile Include="ctype.cpp" />
     <ClCompile Include="declarations.cpp" />
     <ClCompile Include="double_pointer.cpp" />
     <ClCompile Include="for_ex.cpp" />

@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_THREADS_TAKING_TURNS);
+	StartSample(TEST_DECLARATIONS_AND_STRING_MANIPULATIONS);
 	
 	return 0;
 }

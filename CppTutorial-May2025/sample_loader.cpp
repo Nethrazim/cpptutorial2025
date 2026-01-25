@@ -202,6 +202,10 @@ void StartSample(LoadingState sample)
 		case TEST_VECTOR_GRADES_FILLING:
 			testVectorGrades();
 			break;
+
+		case TEST_DECLARATIONS_AND_STRING_MANIPULATIONS:
+			testCDeclarationsAndStringManipulations();
+			break;
 	}
 }
 

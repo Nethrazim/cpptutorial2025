@@ -21,3 +21,4 @@
 #include "declarations.h"
 
 void testVectorGrades();
+void testCDeclarationsAndStringManipulations();
