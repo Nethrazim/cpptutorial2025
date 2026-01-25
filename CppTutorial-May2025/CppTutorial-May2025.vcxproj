@@ -137,6 +137,7 @@
     <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="avl_tree.cpp" />
     <ClCompile Include="binary_search_tree.cpp" />
+    <ClCompile Include="char_replacement.cpp" />
     <ClCompile Include="compound_declaration.cpp" />
     <ClCompile Include="conversions.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />

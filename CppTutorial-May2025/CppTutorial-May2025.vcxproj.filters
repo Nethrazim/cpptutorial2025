@@ -195,6 +195,9 @@
     <ClCompile Include="ctype.cpp">
       <Filter>Source Files\C++Prime\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="char_replacement.cpp">
+      <Filter>Source Files\C++Prime\chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">

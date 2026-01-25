@@ -206,6 +206,10 @@ void StartSample(LoadingState sample)
 		case TEST_DECLARATIONS_AND_STRING_MANIPULATIONS:
 			testCDeclarationsAndStringManipulations();
 			break;
+		
+		case TEST_DECLARATIONS_AND_STRING_MANIPULATION2:
+			testMultipleCharReplacementTechniques();
+			break;
 	}
 }
 

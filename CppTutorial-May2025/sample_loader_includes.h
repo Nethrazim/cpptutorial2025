@@ -22,3 +22,4 @@
 
 void testVectorGrades();
 void testCDeclarationsAndStringManipulations();
+void testMultipleCharReplacementTechniques();
