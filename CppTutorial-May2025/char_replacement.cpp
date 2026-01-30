@@ -65,11 +65,28 @@ void testCharComparison() {
 		cout << ca2 << endl;
 	}
 	
-	const char* cp1 = ca1, * cp2 = ca2;
 	//some extras
 	int a[] = { 1, 2 };
 	cout << "sizeof(a) " << sizeof(a) << endl;
 	
 	int* aPtr = a;
 	cout << "sizeof(aPtr) " << sizeof(aPtr) << endl;
+
+	const char* cp1 = ca1, * cp2 = ca2;
+	cout << strcmp(cp1, cp2) << endl;
+	cout << strcmp(cp2, cp1) << endl;
+	cout << strcmp(cp1, cp1) << endl;
+
+	cout << strlen(cp1) << endl;
+
+	const unsigned sz = 16 + 18 + 2;
+	char largeStr[sz];
+
+	strcpy_s(largeStr, ca1);
+	strcpy_s(largeStr, " ");
+	strcpy_s(largeStr, ca2);
+
+	cout << largeStr << endl;
+
+	strncpy_s(largeStr, ca1, sz);
 }

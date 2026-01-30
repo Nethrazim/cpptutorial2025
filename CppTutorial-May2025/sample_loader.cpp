@@ -214,6 +214,10 @@ void StartSample(LoadingState sample)
 		case TEST_CHAR_COMPARISON:
 			testCharComparison();
 			break;
+
+		case TEST_MULTIDIMENSION_ARRAYS:
+			testMultiDimensionArrays();
+			break;
 	}
 }
 

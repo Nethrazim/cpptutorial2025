@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_CHAR_COMPARISON);
+	StartSample(TEST_MULTIDIMENSION_ARRAYS);
 	
 	return 0;
 }
