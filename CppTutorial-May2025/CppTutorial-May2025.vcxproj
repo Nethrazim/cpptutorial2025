@@ -153,6 +153,7 @@
     <ClCompile Include="pascal_triangle.cpp" />
     <ClCompile Include="passing_arrays_to_functions.cpp" />
     <ClCompile Include="plus_one.cpp" />
+    <ClCompile Include="pointer_traversal.cpp" />
     <ClCompile Include="prefix_sum.cpp" />
     <ClCompile Include="same_tree.cpp" />
     <ClCompile Include="sample_loader.cpp" />

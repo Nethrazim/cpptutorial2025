@@ -218,6 +218,10 @@ void StartSample(LoadingState sample)
 		case TEST_MULTIDIMENSION_ARRAYS:
 			testMultiDimensionArrays();
 			break;
+
+		case TEST_POINTER_TRAVERSAL:
+			testPointerTraversal();
+			break;
 	}
 }
 

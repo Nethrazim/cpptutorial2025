@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_MULTIDIMENSION_ARRAYS);
+	StartSample(TEST_POINTER_TRAVERSAL);
 	
 	return 0;
 }

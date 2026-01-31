@@ -201,6 +201,9 @@
     <ClCompile Include="multi_dim.cpp">
       <Filter>Source Files\C++Prime\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="pointer_traversal.cpp">
+      <Filter>Source Files\C++Prime\chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
