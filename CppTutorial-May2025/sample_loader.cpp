@@ -222,6 +222,10 @@ void StartSample(LoadingState sample)
 		case TEST_POINTER_TRAVERSAL:
 			testPointerTraversal();
 			break;
+
+		case TEST_SQUARE:
+			testSquare();
+			break;
 	}
 }
 

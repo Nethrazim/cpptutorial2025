@@ -26,3 +26,4 @@ void testMultipleCharReplacementTechniques();
 void testCharComparison();
 void testMultiDimensionArrays();
 void testPointerTraversal();
+void testSquare();

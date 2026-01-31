@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_POINTER_TRAVERSAL);
+	StartSample(TEST_SQUARE);
 	
 	return 0;
 }
