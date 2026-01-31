@@ -226,6 +226,10 @@ void StartSample(LoadingState sample)
 		case TEST_SQUARE:
 			testSquare();
 			break;
+
+		case TEST_CHAR_COMPARE:
+			testCharCompare();
+			break;
 	}
 }
 

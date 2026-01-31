@@ -27,3 +27,4 @@ void testCharComparison();
 void testMultiDimensionArrays();
 void testPointerTraversal();
 void testSquare();
+void testCharCompare();
