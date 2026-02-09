@@ -230,6 +230,23 @@ void StartSample(LoadingState sample)
 		case TEST_CHAR_COMPARE:
 			testCharCompare();
 			break;
+		
+		case TEST_POINTER_WITH_OFFSET:
+			testPointerWithOffset();
+			break;
+
+		case TEST_SIZE_OF_ARRAY:
+			testSizeOfArray();
+			break;
+
+		case TEST_PRE_POST_INCREMENT:
+			prefixPostFixIncrement();
+			break;
+		
+		case TEST_SIZEOF_STRUCT:
+			testSalesDataMemory();
+			break;
+
 	}
 }
 

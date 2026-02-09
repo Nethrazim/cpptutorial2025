@@ -42,3 +42,29 @@ void testPointerTraversal()
 		pbeg++;
 	}
 }
+
+void testPointerWithOffset()
+{
+	int arr[5] = { 1, 2, 3, 4, 5 };
+	int* ptrArr = arr;
+
+	cout << "The Fifth Element is " << *(ptrArr + 4) << endl;
+}
+
+
+void testSizeOfArray() {
+	int ia[] = { 1, 2, 3, 4, 5, 6 };
+	constexpr size_t sz = sizeof(ia) / sizeof(*ia);
+	cout << "ia size" << ia << endl;
+}
+
+void prefixPostFixIncrement()
+{
+	int i = 0, j;
+	j = ++i;
+
+	cout << i << " " << j << endl;
+
+	j = i++;
+	cout << i << " " << j << endl;
+}

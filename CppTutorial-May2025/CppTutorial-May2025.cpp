@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_CHAR_COMPARE);
+	StartSample(TEST_SIZEOF_STRUCT);
 	
 	return 0;
 }

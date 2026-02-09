@@ -28,3 +28,7 @@ void testMultiDimensionArrays();
 void testPointerTraversal();
 void testSquare();
 void testCharCompare();
+void testPointerWithOffset();
+void testSizeOfArray();
+void prefixPostFixIncrement();
+void testSalesDataMemory();

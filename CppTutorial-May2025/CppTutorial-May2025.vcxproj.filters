@@ -207,6 +207,9 @@
     <ClCompile Include="sq.cpp">
       <Filter>Source Files\C++Prime\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="Sales_data.cpp">
+      <Filter>Source Files\C++Prime</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -277,6 +280,9 @@
     </ClInclude>
     <ClInclude Include="sample_loader_includes.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_data.h">
+      <Filter>Header Files\C++Prime</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
