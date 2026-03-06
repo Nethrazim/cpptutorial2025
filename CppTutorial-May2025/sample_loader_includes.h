@@ -32,3 +32,20 @@ void testPointerWithOffset();
 void testSizeOfArray();
 void prefixPostFixIncrement();
 void testSalesDataMemory();
+void testPassBySizedArray();
+void testPassUnsizedArray();
+void testPassAnArrayPointer();
+void testVector();
+
+void testLeetCodeSameTree();
+void testPrintLinkedList();
+void testMergedRanges();
+void testPlusOne();
+
+void testAddTwoNumbersFromLinkedLists();
+void testReturnByReferenceOutOfScope();
+int& testDanglingReferences();
+void testDanglingRefs();
+void testPrintHexAndOctal();
+void testFirstMissingPositive();
+void testMoveCopyDefaultConstructors();

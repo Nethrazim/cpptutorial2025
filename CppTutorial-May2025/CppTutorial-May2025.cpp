@@ -5,7 +5,7 @@
 
 int main()
 {
-	StartSample(TEST_SIZEOF_STRUCT);
+	StartSample(TEST_MOVE_COPY_DEFAULT_CONSTRUCTORS);
 	
 	return 0;
 }

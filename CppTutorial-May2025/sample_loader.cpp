@@ -7,24 +7,6 @@
 #include "sample_loader_includes.h"
 
 
-//Forward declarations
-void testPassBySizedArray();
-void testPassUnsizedArray();
-void testPassAnArrayPointer();
-void testVector();
-
-void testLeetCodeSameTree();
-void testPrintLinkedList();
-void testMergedRanges();
-void testPlusOne();
-
-void testAddTwoNumbersFromLinkedLists();
-void testReturnByReferenceOutOfScope();
-int& testDanglingReferences();
-void testDanglingRefs();
-void testPrintHexAndOctal();
-void testFirstMissingPositive();
-
 void StartSample(LoadingState sample)
 {
 	switch (sample)
@@ -245,6 +227,10 @@ void StartSample(LoadingState sample)
 		
 		case TEST_SIZEOF_STRUCT:
 			testSalesDataMemory();
+			break;
+
+		case TEST_MOVE_COPY_DEFAULT_CONSTRUCTORS:
+			testMoveCopyDefaultConstructors();
 			break;
 
 	}
