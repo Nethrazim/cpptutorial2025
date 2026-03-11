@@ -58,6 +58,7 @@ enum LoadingState {
 	TEST_PRE_POST_INCREMENT,
 	TEST_SIZEOF_STRUCT,
 	TEST_MOVE_COPY_DEFAULT_CONSTRUCTORS,
+	TEST_ARRAY_DECLARATION,
 };
 
 void StartSample(LoadingState sample);

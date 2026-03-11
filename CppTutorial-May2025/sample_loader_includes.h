@@ -49,3 +49,4 @@ void testDanglingRefs();
 void testPrintHexAndOctal();
 void testFirstMissingPositive();
 void testMoveCopyDefaultConstructors();
+void testDeclArrays();

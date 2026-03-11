@@ -29,11 +29,6 @@ void passAnArrayPointer(int* pArr, int size)
 	}
 }
 
-
-/// <summary>
-///inserts into vector so at some point the vector is coppied in another 
-/// memory location with increased capacity
-/// </summary>
 void testing_vector() {
 	std::vector<int> vec;
 	std::vector<int*> memoryAddresses;

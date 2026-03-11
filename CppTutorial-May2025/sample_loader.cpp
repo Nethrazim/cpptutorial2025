@@ -233,6 +233,10 @@ void StartSample(LoadingState sample)
 			testMoveCopyDefaultConstructors();
 			break;
 
+		case TEST_ARRAY_DECLARATION:
+			testDeclArrays();
+			break;
+
 	}
 }
 

@@ -145,6 +145,7 @@
     <ClCompile Include="CppTutorial-May2025.cpp" />
     <ClCompile Include="ctype.cpp" />
     <ClCompile Include="declarations.cpp" />
+    <ClCompile Include="decl_arrays.cpp" />
     <ClCompile Include="double_pointer.cpp" />
     <ClCompile Include="for_ex.cpp" />
     <ClCompile Include="linked_list.cpp" />

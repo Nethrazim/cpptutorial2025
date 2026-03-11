@@ -112,6 +112,9 @@
     <Filter Include="Source Files\C++Reference">
       <UniqueIdentifier>{06755199-ce35-4ad6-abe3-499f488c9af8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\fundamental algorithms\arrays">
+      <UniqueIdentifier>{a64dcc40-a7ec-4a14-bf26-3f63c0b706b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -209,6 +212,12 @@
     </ClCompile>
     <ClCompile Include="Sales_data.cpp">
       <Filter>Source Files\C++Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="constructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decl_arrays.cpp">
+      <Filter>Source Files\fundamental algorithms\arrays</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
