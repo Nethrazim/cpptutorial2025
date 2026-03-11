@@ -2,7 +2,7 @@
 
 int main()
 {
-	StartSample(TEST_ARRAY_DECLARATION);
+	StartSample(TEST_PASS_BY_UNSIZED_ARRAY);
 	
 	return 0;
 }

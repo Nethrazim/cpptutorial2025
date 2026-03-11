@@ -240,31 +240,6 @@ void StartSample(LoadingState sample)
 	}
 }
 
-/* == == == == START tests passing_arrays_to_functions == == == ==*/
-
-void testPassBySizedArray() {
-	int arr[5] = { 1, 2, 3, 4, 5 };
-	passBySizedArray(arr);
-}
-
-void testPassUnsizedArray() {
-	int arr[] = { 0, 1, 2, 3, 4, 5 };
-	std::cout << "Size of array: " << sizeof(arr) << std::endl;
-	int size = sizeof(arr) / sizeof(int);
-
-	passUnsizedArray(arr, size);
-}
-
-void testPassAnArrayPointer() {
-	int arr[] = { 21, 22, 23, 24, 25 };
-	passAnArrayPointer(arr, sizeof(arr) / sizeof(int));
-}
-
-void testVector() {
-	testing_vector();
-}
-/* == == == == END tests passing_arrays_to_functions == == == ==*/
-
  
 
 void testLeetCodeSameTree() {
