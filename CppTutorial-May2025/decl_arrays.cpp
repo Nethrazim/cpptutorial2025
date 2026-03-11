@@ -1,5 +1,6 @@
 #include <iostream>
 #include <array>
+#include <malloc.h>
 
 using std::cout; using std::endl;
 
@@ -24,4 +25,35 @@ void testDeclArrays() {
 	{
 		cout << val << " ";
 	}
+
+	int* dynArr = new int[5];
+	cout << sizeof(dynArr) << endl; //returns pointer size NOT array size;
+
+	//lets try, commenting this because its not good nullptr = 0x000000
+	
+	bool isCounting = true;
+	size_t lengthDynArray = 0;
+	while (isCounting)
+	{
+		if (dynArr == nullptr)
+		{
+			isCounting = false;
+		}
+
+		dynArr += 1;
+		lengthDynArray++;
+		break;
+	}
+	dynArr -= 1;
+	delete dynArr;//dynArr pointer has lost initial address but i put back above
+
+	cout << "Size of dynArr " << lengthDynArray << endl;
+	
+	dynArr = new int[5];
+
+	size_t allocatedBytes = _msize(dynArr);
+	size_t numElements = allocatedBytes / sizeof(*dynArr);
+	
+	//if you're lucky because allocator calculation might round up
+	cout << "Sizeof dynArr = " << numElements << endl;
 }
