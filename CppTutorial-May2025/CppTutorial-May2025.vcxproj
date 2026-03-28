@@ -133,6 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arraysizeof.cpp" />
     <ClCompile Include="basic_sale_items_ops.cpp" />
     <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="avl_tree.cpp" />
@@ -198,6 +199,7 @@
     <ClInclude Include="variables.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="readme.txt" />
     <Text Include="topics_to_study.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -61,6 +61,9 @@ enum LoadingState {
 	TEST_ARRAY_DECLARATION,
 	TEST_CCTYPE_WITH_RANGES,
 	TEST_CHAR_STRINGS,
+	TEST_ARRAY_SIZE_OF,
+	TEST_CONST_EXPR_VS_CONST,
+	TEST_INCR,
 };
 
 void StartSample(LoadingState sample);

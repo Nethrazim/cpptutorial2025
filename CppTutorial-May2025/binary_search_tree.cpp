@@ -144,5 +144,5 @@ int calculateMaximumDepth(TreeNodeV2* node)
 	int leftHeight = calculateMaximumDepth(node->left) + 1;
 	int rightHeight = calculateMaximumDepth(node->right) + 1;
 
-	return std::max(leftHeight, rightHeight);
+	return (std::max)(leftHeight, rightHeight);  // Parentheses prevent macro expansion
 }

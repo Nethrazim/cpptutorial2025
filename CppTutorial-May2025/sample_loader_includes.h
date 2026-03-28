@@ -52,3 +52,6 @@ void testMoveCopyDefaultConstructors();
 void testDeclArrays();
 void ccTypeWithRanges();
 void cstringHdr();
+void testArraySizeOf();
+void testConstExpressionVsConst();
+void testIncr();

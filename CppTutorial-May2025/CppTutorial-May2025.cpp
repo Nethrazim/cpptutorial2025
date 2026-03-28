@@ -2,7 +2,7 @@
 
 int main()
 {
-	StartSample(TEST_CHAR_STRINGS);
+	StartSample(TEST_INCR);
 	
 	return 0;
 }

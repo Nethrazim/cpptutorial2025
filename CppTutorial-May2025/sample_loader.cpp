@@ -244,6 +244,18 @@ void StartSample(LoadingState sample)
 		case TEST_CHAR_STRINGS:
 			cstringHdr();
 			break;
+
+		case TEST_ARRAY_SIZE_OF:
+			testArraySizeOf();
+			break;
+
+		case TEST_CONST_EXPR_VS_CONST:
+			testConstExpressionVsConst();
+			break;
+
+		case TEST_INCR:
+			testIncr();
+			break;
 	}
 }
 

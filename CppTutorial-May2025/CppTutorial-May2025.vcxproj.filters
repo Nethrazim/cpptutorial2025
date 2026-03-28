@@ -115,6 +115,9 @@
     <Filter Include="Source Files\fundamental algorithms\arrays">
       <UniqueIdentifier>{a64dcc40-a7ec-4a14-bf26-3f63c0b706b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\C++Prime\chapter4">
+      <UniqueIdentifier>{c331dba9-c64a-45d3-bacc-e79c2ccae71a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="linked_list.cpp">
@@ -228,6 +231,9 @@
     <ClCompile Include="cstring_hdr.cpp">
       <Filter>Source Files\C++Prime\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="arraysizeof.cpp">
+      <Filter>Source Files\C++Prime\chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">
@@ -305,5 +311,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="topics_to_study.txt" />
+    <Text Include="readme.txt" />
   </ItemGroup>
 </Project>
