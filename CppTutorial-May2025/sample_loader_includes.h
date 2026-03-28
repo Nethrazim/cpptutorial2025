@@ -50,3 +50,5 @@ void testPrintHexAndOctal();
 void testFirstMissingPositive();
 void testMoveCopyDefaultConstructors();
 void testDeclArrays();
+void ccTypeWithRanges();
+void cstringHdr();

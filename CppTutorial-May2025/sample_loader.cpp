@@ -237,6 +237,13 @@ void StartSample(LoadingState sample)
 			testDeclArrays();
 			break;
 
+		case TEST_CCTYPE_WITH_RANGES:
+			ccTypeWithRanges();
+			break;
+
+		case TEST_CHAR_STRINGS:
+			cstringHdr();
+			break;
 	}
 }
 

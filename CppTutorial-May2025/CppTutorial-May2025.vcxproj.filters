@@ -219,6 +219,15 @@
     <ClCompile Include="decl_arrays.cpp">
       <Filter>Source Files\fundamental algorithms\arrays</Filter>
     </ClCompile>
+    <ClCompile Include="single_producer_single_consumer.cpp">
+      <Filter>Source Files\multithreading_concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="cctype.cpp">
+      <Filter>Source Files\C++Prime\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="cstring_hdr.cpp">
+      <Filter>Source Files\C++Prime\chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linked_list.h">

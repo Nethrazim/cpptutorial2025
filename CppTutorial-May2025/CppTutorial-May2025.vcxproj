@@ -137,12 +137,14 @@
     <ClCompile Include="add_two_numbers_from_linked_lists.cpp" />
     <ClCompile Include="avl_tree.cpp" />
     <ClCompile Include="binary_search_tree.cpp" />
+    <ClCompile Include="cctype.cpp" />
     <ClCompile Include="char_replacement.cpp" />
     <ClCompile Include="compound_declaration.cpp" />
     <ClCompile Include="constructors.cpp" />
     <ClCompile Include="conversions.cpp" />
     <ClCompile Include="copy_by_value_vs_copy_by_reference.cpp" />
     <ClCompile Include="CppTutorial-May2025.cpp" />
+    <ClCompile Include="cstring_hdr.cpp" />
     <ClCompile Include="ctype.cpp" />
     <ClCompile Include="declarations.cpp" />
     <ClCompile Include="decl_arrays.cpp" />
@@ -162,6 +164,7 @@
     <ClCompile Include="sample_loader.cpp" />
     <ClCompile Include="simple_thread.cpp" />
     <ClCompile Include="simple_tree.cpp" />
+    <ClCompile Include="single_producer_single_consumer.cpp" />
     <ClCompile Include="sq.cpp" />
     <ClCompile Include="test_some1.cpp" />
     <ClCompile Include="value_switch.cpp" />

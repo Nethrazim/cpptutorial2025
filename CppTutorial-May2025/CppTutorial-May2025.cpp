@@ -2,7 +2,7 @@
 
 int main()
 {
-	StartSample(TEST_ARRAY_DECLARATION);
+	StartSample(TEST_CHAR_STRINGS);
 	
 	return 0;
 }
